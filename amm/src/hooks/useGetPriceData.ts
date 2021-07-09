@@ -26,10 +26,10 @@ const useGetPriceData = () => {
     const fetchData = async () => {
       try {
         if(multicallContract){
-          const {cakeAddress, busdAddress, bnbAddress, lpSatoBnbAddress, lpBnbBusdAddress} = priceContracts;
+          const {cakeAddress, busdAddress, bnbAddress, lpSysBnbAddress, lpBnbBusdAddress} = priceContracts;
           const calls = [
-            [cakeAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpSatoBnbAddress])],
-            [bnbAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpSatoBnbAddress])],
+            [cakeAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpSysBnbAddress])],
+            [bnbAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpSysBnbAddress])],
             [bnbAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpBnbBusdAddress])],
             [busdAddress, ERC20_INTERFACE.encodeFunctionData("balanceOf", [lpBnbBusdAddress])],
           ];

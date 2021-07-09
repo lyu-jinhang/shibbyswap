@@ -46,7 +46,7 @@ const Coming: React.FC = () => {
         <Image src="/images/bunny-question.svg" width={64} height={64} alt="Your project here" />
         <Balance>???</Balance>
         <Label>{TranslateString(416, 'Create a pool for your token')}</Label>
-        <Button variant="secondary" as="a" href="https://t.me/satoswaptokenchat" external width="100%" mb="16px">
+        <Button variant="secondary" as="a" href="https://t.me/shibbyswaptokenchat" external width="100%" mb="16px">
           {TranslateString(418, 'Apply Now')}
         </Button>
         <DetailPlaceholder>
@@ -55,10 +55,10 @@ const Coming: React.FC = () => {
         </DetailPlaceholder>
         <DetailPlaceholder>
           <div style={{ flex: 1 }}>
-            <img src="/images/farms/sato.png" alt="SATO Token" width="15" height="15" />{' '}
+            <img src="/images/farms/sys.png" alt="SYS Token" width="15" height="15" />{' '}
             {TranslateString(384, 'Your Stake')}:
           </div>
-          <Value>??? SATO</Value>
+          <Value>??? SYS</Value>
         </DetailPlaceholder>
       </div>
       <Footer>

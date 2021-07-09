@@ -83,7 +83,7 @@ const Farm: React.FC = () => {
             {TranslateString(738, 'Syrup Pool')}
           </Heading>
           <ul>
-            <li>{TranslateString(580, 'Stake SATO to earn new tokens.')}</li>
+            <li>{TranslateString(580, 'Stake SYS to earn new tokens.')}</li>
             <li>{TranslateString(486, 'You can unstake at any time.')}</li>
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
           </ul>

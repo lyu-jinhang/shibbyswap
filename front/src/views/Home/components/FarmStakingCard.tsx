@@ -59,8 +59,8 @@ const FarmedStakingCard = () => {
     }
   }, [onReward])
 
-  const tokenImageSrc = `${BASE_URL}/images/farms/sato.png`
-  const tokenName = `SATO`
+  const tokenImageSrc = `${BASE_URL}/images/farms/sys.png`
+  const tokenName = `SYS`
   const tokenAddress = `0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2`
 
   return (
@@ -70,11 +70,11 @@ const FarmedStakingCard = () => {
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
         <Block>
-          <Label>{TranslateString(544, 'SATO to Harvest')}:</Label>
+          <Label>{TranslateString(544, 'SYS to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'SATO in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'SYS in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -86,7 +86,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting SATO')
+                ? TranslateString(548, 'Collecting SYS')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (

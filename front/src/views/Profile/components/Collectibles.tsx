@@ -37,18 +37,18 @@ const Collectibles = () => {
   return (
     <>
       <Heading as="h4" size="md" mb="8px">
-        {TranslateString(999, 'SatoSwap Token Collectibles')}
+        {TranslateString(999, 'Shibbyswap Token Collectibles')}
       </Heading>
       <Text as="p">
         {TranslateString(
           999,
-          'SatoSwap Token Collectibles are special ERC-721 NFTs that can be used on the SatoSwap Token platform.',
+          'Shibbyswap Token Collectibles are special ERC-721 NFTs that can be used on the Shibbyswap Token platform.',
         )}
       </Text>
       <Text as="p">
         {TranslateString(
           999,
-          "NFTs in this user's wallet that aren't approved SatoSwap Token Collectibles won't be shown here.",
+          "NFTs in this user's wallet that aren't approved Shibbyswap Token Collectibles won't be shown here.",
         )}
       </Text>
       {nftsInWallet.length > 0 && (

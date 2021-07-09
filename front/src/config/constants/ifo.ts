@@ -92,7 +92,7 @@ const ifos: Ifo[] = [
     name: 'Tenet (TEN)',
     subTitle: 'Cross-chain Automated Market Maker',
     description:
-      'Tenet is a cross-chain Automated Market Maker (AMM) connector that provides a decentralized Liquidity Sato for various tokens. The Liquidity Sato is the powerhouse of the Liquidity Pool, employing a dynamic algorithm to give the Liquidity Provider fairer, more efficient, and richer incentives. Tenet aims to build a cross-chain and cross-platform toolkit protocol that allows the demand side to customize the parameters of the liquidity tap, allowing them to reach out to more liquidity participants effectively and with relative ease.',
+      'Tenet is a cross-chain Automated Market Maker (AMM) connector that provides a decentralized Liquidity Sys for various tokens. The Liquidity Sys is the powerhouse of the Liquidity Pool, employing a dynamic algorithm to give the Liquidity Provider fairer, more efficient, and richer incentives. Tenet aims to build a cross-chain and cross-platform toolkit protocol that allows the demand side to customize the parameters of the liquidity tap, allowing them to reach out to more liquidity participants effectively and with relative ease.',
     launchDate: 'Jan. 5',
     launchTime: '3PM SGT',
     saleAmount: '1,000,000 TEN',

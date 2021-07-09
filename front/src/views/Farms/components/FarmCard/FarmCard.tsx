@@ -168,7 +168,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase().replace('PANCAKE', '')
-  const earnLabel = farm.dual ? farm.dual.earnLabel : 'SATO'
+  const earnLabel = farm.dual ? farm.dual.earnLabel : 'SYS'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString('en-US').slice(0, -1)
 
   const { quoteTokenAdresses, quoteTokenSymbol, tokenAddresses } = farm
@@ -183,7 +183,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     <FCard>
       {/* {!farm.isTokenOnly && farm.isPsc && <PscLpRibbon />}
       {!farm.isTokenOnly && farm.isOldPsc && <PscOldLpRibbon />} */}
-      {farm.tokenSymbol === 'SATO' && <StyledCardAccent />}
+      {farm.tokenSymbol === 'SYS' && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
@@ -234,7 +234,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
               color="textDisabled"
               fontSize="14px"
               mt="10px"
-              href="https://satoswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee"
+              href="https://shibbyswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee"
               target="blank"
               rel="noopener noreferrer"
             >

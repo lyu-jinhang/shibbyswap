@@ -52,10 +52,10 @@ const Ifo = () => {
             <li>{TranslateString(598, 'Get CAKE-BNB LP tokens by adding CAKE and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://swap.satoswap.finance/#/swap" mr="16px">
-              {TranslateString(1060, 'Buy SATO')}
+            <LinkExternal href="https://swap.shibbyswap.com/#/swap" mr="16px">
+              {TranslateString(1060, 'Buy SYS')}
             </LinkExternal>
-            <LinkExternal href="https://swap.satoswap.finance/#/add/ETH/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
+            <LinkExternal href="https://swap.shibbyswap.com/#/add/ETH/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
               {TranslateString(1062, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
@@ -85,7 +85,7 @@ const Ifo = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with SatoSwap Token, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with Shibbyswap Token, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button

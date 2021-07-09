@@ -31,7 +31,7 @@ export const links = [
   {
     label: "Certik Audit (In-Progress)",
     icon: "ShieldIcon",
-    href: "https://twitter.com/satoswaptokendex/status/1367218225310818308",
+    href: "https://twitter.com/shibbyswaptokendex/status/1367218225310818308",
     target: "_blank",
   },
   {
@@ -110,16 +110,16 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/satoswaptoken/",
+        href: "https://github.com/shibbyswaptoken/",
         target: '_blank',
       },
       {
         label: "Docs",
-        href: "https://sato.gitbook.io/satoswaptoken/",
+        href: "https://sys.gitbook.io/shibbyswaptoken/",
       },
       {
         label: "Blog",
-        href: "https://satoswaptokendex.medium.com/",
+        href: "https://shibbyswaptokendex.medium.com/",
       },
     ],
   },
@@ -129,7 +129,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/SatoSwap",
+    href: "https://twitter.com/Shibbyswap",
   },
 ];
 

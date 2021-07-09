@@ -28,14 +28,14 @@ const HowItWorks = () => {
 
   return (
     <LayoutWrapper>
-      <StyledImage src="/images/lottery-sato.png" alt="lottery bunny" width={163} height={163} />
+      <StyledImage src="/images/lottery-sys.png" alt="lottery bunny" width={163} height={163} />
       <StyledHeading size="lg" as="h3" color="secondary">
         {TranslateString(632, 'How it works')}
       </StyledHeading>
       <Text fontSize="16px">
         {TranslateString(
           999,
-          'Spend SATO to buy tickets, contributing to the lottery pot. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their exact order!',
+          'Spend SYS to buy tickets, contributing to the lottery pot. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their exact order!',
         )}
       </Text>
       <StyledLink href="https://docs.pancakeswap.finance/products/lottery">Read more</StyledLink>

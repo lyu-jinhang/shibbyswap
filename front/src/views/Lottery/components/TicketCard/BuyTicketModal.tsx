@@ -74,19 +74,19 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
         onChange={handleChange}
         max={fullBalance}
         symbol="TICKET"
-        availableSymbol="SATO"
+        availableSymbol="SYS"
       />
       <div>
-        <Tips>{TranslateString(999, `1 Ticket = ${LOTTERY_TICKET_PRICE} SATO`, { num: LOTTERY_TICKET_PRICE })}</Tips>
+        <Tips>{TranslateString(999, `1 Ticket = ${LOTTERY_TICKET_PRICE} SYS`, { num: LOTTERY_TICKET_PRICE })}</Tips>
       </div>
       <div>
         <Announce>
           {TranslateString(
             478,
-            'Ticket purchases are final. Your SATO cannot be returned to you after buying tickets.',
+            'Ticket purchases are final. Your SYS cannot be returned to you after buying tickets.',
           )}
         </Announce>
-        <Final>{TranslateString(460, `You will spend: ${cakeCosts(val)} SATO`)}</Final>
+        <Final>{TranslateString(460, `You will spend: ${cakeCosts(val)} SYS`)}</Final>
       </div>
       <ModalActions>
         <Button width="100%" variant="secondary" onClick={onDismiss}>

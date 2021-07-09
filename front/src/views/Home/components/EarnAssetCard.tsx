@@ -28,7 +28,7 @@ const EarnAssetCard = () => {
         <CardMidContent>{assets}</CardMidContent>
         <Flex justifyContent="space-between">
           <Heading size="lg">
-            in <img src="/images/satoswaptoken/bush.svg" height="24px" width="24px" alt="Launchpads" /> Launchpads
+            in <img src="/images/shibbyswaptoken/bush.svg" height="24px" width="24px" alt="Launchpads" /> Launchpads
           </Heading>
           <NavLink exact activeClassName="active" to="/bush" id="pool-cta">
             <ArrowForwardIcon mt={30} color="primary" />

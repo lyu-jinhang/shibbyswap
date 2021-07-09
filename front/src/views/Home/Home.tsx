@@ -103,10 +103,10 @@ const Home: React.FC = () => {
           {TranslateString(578, 'AMM +Yield Aggregator on Binance Smartchain')}
         </Heading>
         <Heading size="lg" color="text">
-          <a href="https://swap.satoswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
+          <a href="https://swap.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
             <Button variant="subtle">
               {TranslateString(733, 'BUY')}{' '}
-              {TranslateString(734, 'SATO Token Now!')}
+              {TranslateString(734, 'SYS Token Now!')}
             </Button>
           </a>
         </Heading>

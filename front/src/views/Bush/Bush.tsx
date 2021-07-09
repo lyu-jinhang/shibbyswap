@@ -27,7 +27,7 @@ const Bush: React.FC = () => {
   const pools = usePools(account)
   const bnbPriceUSD = usePriceBnbBusd()
   const cakePrice = usePriceCakeBusd()
-  const satoBusdfarm = useFarmFromPid(1)
+  const sysBusdfarm = useFarmFromPid(1)
   const [apePrice, setApePrice] = useState(0)
   const block = useBlock()
   const [stackedOnly, setStackedOnly] = useState(false)
@@ -78,7 +78,7 @@ const Bush: React.FC = () => {
 
     // total liquidity
     let totalValue = new BigNumber(0)
-    if (pool.stakingTokenName === QuoteToken.SATO) {
+    if (pool.stakingTokenName === QuoteToken.SYS) {
       totalValue = new BigNumber(pool.totalStaked).div(new BigNumber(10).pow(18)).multipliedBy(cakePrice)
     }
 
@@ -144,14 +144,14 @@ const Bush: React.FC = () => {
         </Heading>
         <Heading size="md" color="text">
           <ul>
-            <li>{TranslateString(580, 'Stake SATO token and SATO LPs to earn new tokens.')}</li>
+            <li>{TranslateString(580, 'Stake SYS token and SYS LPs to earn new tokens.')}</li>
             <li>{TranslateString(486, 'You can unstake at any time.')}</li>
             <li>{TranslateString(406, 'Rewards are calculated per block.')}</li>
             <li>{TranslateString(742, 'Deposit fees will be automatically burnt.')}</li>
           </ul>
         </Heading>
         {/* <Text style={{ marginTop: '10px' }}>
-          <AddressLink href="https://satoswaptokendex.medium.com/the-bush-next-evolution-d9e316be71f1" color="text" external>
+          <AddressLink href="https://shibbyswaptokendex.medium.com/the-bush-next-evolution-d9e316be71f1" color="text" external>
             <HelpIcon color="textSubtle" /> {TranslateString(743, 'Learn more about Launchpad')}
           </AddressLink>
         </Text> */}

@@ -238,7 +238,7 @@ const Swap = () => {
         checkForSyrup(inputCurrency.symbol.toLowerCase(), 'Selling')
       }
 
-      showBushWarning.current = (inputCurrency.symbol === "SATO")
+      showBushWarning.current = (inputCurrency.symbol === "SYS")
     },
     [onCurrencySelection, setApprovalSubmitted, checkForSyrup, showBushWarning]
   )
@@ -276,8 +276,8 @@ const Swap = () => {
       <CardNav />
       {/* {showBushWarning.current === true ? (
         <TextWarning>
-          Thing about selling some $SATO? <br/> Did you already visit the <ActionLink
-          href="https://satoswap.finance/bush"
+          Thing about selling some $SYS? <br/> Did you already visit the <ActionLink
+          href="https://shibbyswap.com/bush"
           target="_blank"
         >Launchpad</ActionLink>?
         </TextWarning>

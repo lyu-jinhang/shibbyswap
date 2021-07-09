@@ -127,23 +127,23 @@ const data = {
   rows: [
     // {
     //   title: `What means APE LP ribbon on farms ?`,
-    //   content: `These farms use liquidities from the ApeSwap DEX. To provide LP to these farms, you need to use ApeSwap DEX interface by following <a href="https://swape.satoswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2" target="_blank" style="color: orange;font-weight: bold">this link</a>. Read more about the SatoSwap Token & ApeSwap partnership in this <a href="https://satoswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
+    //   content: `These farms use liquidities from the ApeSwap DEX. To provide LP to these farms, you need to use ApeSwap DEX interface by following <a href="https://swape.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2" target="_blank" style="color: orange;font-weight: bold">this link</a>. Read more about the Shibbyswap Token & ApeSwap partnership in this <a href="https://shibbyswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
     // },
     {
       title: 'What means PCS LP ribbon on farms ?',
-      content: `These farms use liquidities from the <strong>P</strong>an<strong>C</strong>ake<strong>S</strong>wap DEX. SatoSwap Token keep these farms available to be fair with users who paid deposit fees to enter into. To provide LP to these farms, you need to use PanCakeSwap DEX interface by following <a href="https://swap.satoswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2" target="_blank" style="color: orange;font-weight: bold">this link</a>. All futures farms created on SatoSwap Token will use APE LP. Read more about the SatoSwap Token & ApeSwap partnership in this <a href="https://satoswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
+      content: `These farms use liquidities from the <strong>P</strong>an<strong>C</strong>ake<strong>S</strong>wap DEX. Shibbyswap Token keep these farms available to be fair with users who paid deposit fees to enter into. To provide LP to these farms, you need to use PanCakeSwap DEX interface by following <a href="https://swap.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2" target="_blank" style="color: orange;font-weight: bold">this link</a>. All futures farms created on Shibbyswap Token will use APE LP. Read more about the Shibbyswap Token & ApeSwap partnership in this <a href="https://shibbyswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
     },
     {
       title: 'What means OLD ribbon on farms ?',
-      content: `These legacy farms use liquidities from the <strong>P</strong>an<strong>C</strong>ake<strong>S</strong>wap DEX. They are still active and keep rewarding users inside but the new APE LP farms have better APRs and we invite all your users to move to these farms. Here is a step by step guide to help users moving there liquidities. (<a href="https://satoswaptokendex.medium.com/step-by-step-guide-to-move-lp-from-pancakeswap-to-apeswap-c28cff9105ac" target="_blank" style="color: orange;font-weight: bold">https://medium.com/@satoswaptokenfinance/step-by-step-guide-to-move-lp-from-pancakeswap-to-apeswap-c28cff9105ac</a>) Read more about the SatoSwap Token & ApeSwap partnership in this <a href="https://satoswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
+      content: `These legacy farms use liquidities from the <strong>P</strong>an<strong>C</strong>ake<strong>S</strong>wap DEX. They are still active and keep rewarding users inside but the new APE LP farms have better APRs and we invite all your users to move to these farms. Here is a step by step guide to help users moving there liquidities. (<a href="https://shibbyswaptokendex.medium.com/step-by-step-guide-to-move-lp-from-pancakeswap-to-apeswap-c28cff9105ac" target="_blank" style="color: orange;font-weight: bold">https://medium.com/@shibbyswaptokenfinance/step-by-step-guide-to-move-lp-from-pancakeswap-to-apeswap-c28cff9105ac</a>) Read more about the Shibbyswap Token & ApeSwap partnership in this <a href="https://shibbyswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
     },
     {
       title: 'What will happens to my liquidities if I stay in OLD farms ?',
-      content: `Your liquidities will always be available for withdrawal. Your funds are SAFU. When all liquidities (or a large amount of at least 80%) will be moved from Pancakeswap to ApeSwap, the actual 2 farms using Pancakeswap will be deactivated. You will always be able to find these farms into the inactive tab and withdraw your funds. When these farms will be deactivated, no more $SATO rewards will be distributed (APR = 0%). Read more about the SatoSwap Token & ApeSwap partnership in this <a href="https://satoswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
+      content: `Your liquidities will always be available for withdrawal. Your funds are SAFU. When all liquidities (or a large amount of at least 80%) will be moved from Pancakeswap to ApeSwap, the actual 2 farms using Pancakeswap will be deactivated. You will always be able to find these farms into the inactive tab and withdraw your funds. When these farms will be deactivated, no more $SYS rewards will be distributed (APR = 0%). Read more about the Shibbyswap Token & ApeSwap partnership in this <a href="https://shibbyswaptokendex.medium.com/partnership-with-apeswap-finance-c1dd2dd44eee" target="_blank" style="color: orange;font-weight: bold">blog post</a>.`,
     },
     // {
     //   title: 'What are the risks of using ApeSawp LP vs PanCakeSwap LP ?',
-    //   content: `<strong>Contract risks</strong> : Apeswap use copies of PanCakeSwap contracts and is audited : <a href="https://github.com/ApeSwapFinance/apeswap-banana-farm/blob/master/audits/ApeSwap_GEMZ_Audit_Report_21.03.05.pdf" target="_blank" style="color: orange;font-weight: bold">https://github.com/ApeSwapFinance/apeswap-banana-farm/blob/master/audits/ApeSwap_GEMZ_Audit_Report_21.03.05.pdf</a> <br><br><strong>Liquidities risks</strong> : Same as using PanCakeSwap pairs : SatoSwap Token is a young project and our liquidities are still low and volatility is still high. But having liquidities in another place don’t change this “risk”.`,
+    //   content: `<strong>Contract risks</strong> : Apeswap use copies of PanCakeSwap contracts and is audited : <a href="https://github.com/ApeSwapFinance/apeswap-banana-farm/blob/master/audits/ApeSwap_GEMZ_Audit_Report_21.03.05.pdf" target="_blank" style="color: orange;font-weight: bold">https://github.com/ApeSwapFinance/apeswap-banana-farm/blob/master/audits/ApeSwap_GEMZ_Audit_Report_21.03.05.pdf</a> <br><br><strong>Liquidities risks</strong> : Same as using PanCakeSwap pairs : Shibbyswap Token is a young project and our liquidities are still low and volatility is still high. But having liquidities in another place don’t change this “risk”.`,
     // },
   ],
 }
@@ -215,7 +215,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.satoPerBlock || 1)
+        const cakeRewardPerBlock = new BigNumber(farm.sysPerBlock || 1)
           .times(new BigNumber(farm.poolWeight))
           .div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
@@ -390,15 +390,15 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Header>
         <Heading as="h1" size="xxl" color="secondary" mb="24px">
           {tokenMode
-            ? TranslateString(10002, 'Stake tokens to earn SATO')
-            : TranslateString(320, 'Stake LP tokens to earn SATO')}
+            ? TranslateString(10002, 'Stake tokens to earn SYS')
+            : TranslateString(320, 'Stake LP tokens to earn SYS')}
         </Heading>
         <Heading size="lg" color="text">
-          {TranslateString(10000, 'Deposit Fee will be used to buyback SATO')}
+          {TranslateString(10000, 'Deposit Fee will be used to buyback SYS')}
         </Heading>
         {/* <Text>
           <AddressLink
-            href="https://doc.satoswap.finance/tokennomics/burn-mechanism-and-fee-farming"
+            href="https://doc.shibbyswap.com/tokennomics/burn-mechanism-and-fee-farming"
             color="text"
             external
           >
@@ -457,7 +457,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </FilterContainer>
         </ControlContainer>
         {renderContent()}
-        <Image src="/images/sato/8.png" alt="illustration" width={1352} height={587} responsive />
+        <Image src="/images/sys/8.png" alt="illustration" width={1352} height={587} responsive />
       </Page>
     </>
   )

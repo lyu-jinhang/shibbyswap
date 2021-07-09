@@ -96,7 +96,7 @@ export const usePriceBnbBusd = (): BigNumber => {
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const pid = 2 // SATO-BNB LP
+  const pid = 2 // SYS-BNB LP
   const farm = useFarmFromPid(pid)
   const bnbPriceBusd = usePriceBnbBusd()
   return farm.tokenPriceVsQuote ? bnbPriceBusd.times(farm.tokenPriceVsQuote) : ZERO
@@ -218,7 +218,7 @@ export const useTotalValue = (): BigNumber => {
   const bushs = useBushs()
   const bnbPrice = usePriceBnbBusd()
   const cakePrice = usePriceCakeBusd()
-  const satoBusdfarm = useFarmFromPid(1)
+  const sysBusdfarm = useFarmFromPid(1)
   let value = new BigNumber(0)
 
   // farms
@@ -243,7 +243,7 @@ export const useTotalValue = (): BigNumber => {
 
     // total liquidity
     let bushValue = new BigNumber(0)
-    if (bush.stakingTokenName === QuoteToken.SATO) {
+    if (bush.stakingTokenName === QuoteToken.SYS) {
       bushValue = new BigNumber(bush.totalStaked).div(new BigNumber(10).pow(18)).multipliedBy(cakePrice)
     }
     

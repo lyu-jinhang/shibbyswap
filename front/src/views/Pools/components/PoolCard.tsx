@@ -243,8 +243,8 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         </StyledDetails>
         <StyledDetails>
           <div style={{ flex: 1 }}>
-            {pool.stakingTokenName === 'SATO' && (
-              <img src="/images/farms/sato.png" alt="SATO Token" width="15" height="15" />
+            {pool.stakingTokenName === 'SYS' && (
+              <img src="/images/farms/sys.png" alt="SYS Token" width="15" height="15" />
             )}
             {TranslateString(384, 'Your Stake')}:
           </div>

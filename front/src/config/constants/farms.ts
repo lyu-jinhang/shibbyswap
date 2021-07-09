@@ -6,12 +6,12 @@ const farms: FarmConfig[] = [
     pid: 0,
     isOldPsc: true,
     isTokenOnly: true,
-    lpSymbol: 'SATO',
+    lpSymbol: 'SYS',
     lpAddresses: {
       97: '',
-      56: '0x76E1A18c93db1DF8B3203ddEF448037B0f8d3357', // SATO-BUSD LP
+      56: '0x76E1A18c93db1DF8B3203ddEF448037B0f8d3357', // SYS-BUSD LP
     },
-    tokenSymbol: 'SATO',
+    tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
       56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
@@ -22,12 +22,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     isOldPsc: true,
-    lpSymbol: 'SATO-BUSD LP',
+    lpSymbol: 'SYS-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x76E1A18c93db1DF8B3203ddEF448037B0f8d3357',
     },
-    tokenSymbol: 'SATO',
+    tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
       56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
@@ -38,12 +38,12 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     isOldPsc: true,
-    lpSymbol: 'SATO-BNB LP',
+    lpSymbol: 'SYS-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xDC656444FC1701ffF3Fc39Ec8D6379886FecFE6E',
     },
-    tokenSymbol: 'SATO',
+    tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
       56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',

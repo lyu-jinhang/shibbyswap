@@ -13,13 +13,13 @@ const config: MenuEntry[] = [
   //     {
   //       label: 'Exchange',
   //       href:
-  //         'https://swape.satoswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //         'https://swape.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
   //       target: '_blank',
   //     },
   //     {
   //       label: 'Liquidity',
   //       href:
-  //         'https://swape.satoswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //         'https://swape.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
   //       target: '_blank',
   //     },
   //   ],
@@ -31,12 +31,12 @@ const config: MenuEntry[] = [
       {
         label: 'Exchange',
         href:
-          'https://swap.satoswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+          'https://swap.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
       },
       {
         label: 'Liquidity',
         href:
-          'https://swap.satoswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+          'https://swap.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
       },
     ],
   },
@@ -58,13 +58,13 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Techrate Audit',
   //   icon: 'ShieldIcon',
-  //   href: 'https://satoswap.finance/files/audit_techrate.pdf',
+  //   href: 'https://shibbyswap.com/files/audit_techrate.pdf',
   //   target: '_blank',
   // },
   // {
   //   label: 'Certik Audit (In-Progress)',
   //   icon: 'ShieldIcon',
-  //   href: 'https://certik.org/projects/satoswaptoken',
+  //   href: 'https://certik.org/projects/shibbyswaptoken',
   //   target: '_blank',
   // },
   // {
@@ -103,27 +103,27 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/SatoSwap',
+        href: 'https://github.com/Shibbyswap',
         target: '_blank',
       },
       // {
       //   label: 'Docs',
-      //   href: 'https://doc.satoswap.finance/',
+      //   href: 'https://doc.shibbyswap.com/',
       //   target: '_blank',
       // },
       // {
       //   label: 'Blog',
-      //   href: 'https://satoswaptokendex.medium.com/',
+      //   href: 'https://shibbyswaptokendex.medium.com/',
       //   target: '_blank',
       // },
       // {
       //   label: 'Announcements',
-      //   href: 'https://t.me/satoswaptoken',
+      //   href: 'https://t.me/shibbyswaptoken',
       //   target: '_blank',
       // },
       {
         label: 'Discord',
-        href: 'https://discord.gg/satoswap',
+        href: 'https://discord.gg/shibbyswap',
         target: '_blank',
       },
     ],

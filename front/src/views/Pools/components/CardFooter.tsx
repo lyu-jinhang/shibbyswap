@@ -129,9 +129,9 @@ const CardFooter: React.FC<Props> = ({
         <Details>
           <Flex justifyContent="space-between">
             <Text>
-              {tokenName === 'SATO' && (
+              {tokenName === 'SYS' && (
                 <span>
-                  <img src="/images/farms/sato.png" alt="SATO Token" width="15" height="15" />{' '}
+                  <img src="/images/farms/sys.png" alt="SYS Token" width="15" height="15" />{' '}
                 </span>
               )}
               {TranslateString(10011, 'Total staked')}

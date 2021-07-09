@@ -68,8 +68,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract SatoToken",
-        "name": "_sato",
+        "internalType": "contract SysToken",
+        "name": "_sys",
         "type": "address"
       },
       {
@@ -84,7 +84,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_satoPerBlock",
+        "name": "_sysPerBlock",
         "type": "uint256"
       },
       {
@@ -243,7 +243,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_satoPerBlock",
+        "name": "_sysPerBlock",
         "type": "uint256"
       }
     ],
@@ -373,10 +373,10 @@
   },
   {
     "inputs": [],
-    "name": "sato",
+    "name": "sys",
     "outputs": [
       {
-        "internalType": "contract SatoToken",
+        "internalType": "contract SysToken",
         "name": "",
         "type": "address"
       }
@@ -386,7 +386,7 @@
   },
   {
     "inputs": [],
-    "name": "satoPerBlock",
+    "name": "sysPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -423,7 +423,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingSato",
+    "name": "pendingSys",
     "outputs": [
       {
         "internalType": "uint256",
@@ -461,7 +461,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accSatoPerShare",
+        "name": "accSysPerShare",
         "type": "uint256"
       },
       {

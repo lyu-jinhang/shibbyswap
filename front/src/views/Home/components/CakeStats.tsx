@@ -38,21 +38,21 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const farms = useFarms()
-  const satoPrice = usePriceCakeBusd()
+  const sysPrice = usePriceCakeBusd()
   const circSupply = totalSupply ? totalSupply.minus(burnedBalance) : new BigNumber(0)
   const cakeSupply = getBalanceNumber(circSupply)
-  const marketCap = satoPrice.times(circSupply)
+  const marketCap = sysPrice.times(circSupply)
 
-  let satoPerBlock = 0
-  if (farms && farms[0] && farms[0].satoPerBlock) {
-    satoPerBlock = new BigNumber(farms[0].satoPerBlock).div(new BigNumber(10).pow(18)).toNumber()
+  let sysPerBlock = 0
+  if (farms && farms[0] && farms[0].sysPerBlock) {
+    sysPerBlock = new BigNumber(farms[0].sysPerBlock).div(new BigNumber(10).pow(18)).toNumber()
   }
 
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="lg" mb="24px">
-          {TranslateString(534, 'SATOs Stats')}
+          {TranslateString(534, 'SYSs Stats')}
         </Heading>
         <RowHighlighted>
           <Text fontSize="14px">
@@ -80,7 +80,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">
-            {TranslateString(538, 'SATO burnt by SatoSwap Tokens')}{' '}
+            {TranslateString(538, 'SYS burnt by Shibbyswap Tokens')}{' '}
             <span data-tip data-for="totalBurnedTooltip">
               <FontAwesomeIcon icon={faQuestionCircle} />
             </span>
@@ -93,9 +93,9 @@ const CakeStats = () => {
           </LinkExternal>
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New SATO/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New SYS/block')}</Text>
           <Text bold fontSize="14px">
-            {satoPerBlock}
+            {sysPerBlock}
           </Text>
         </Row>
       </CardBody>

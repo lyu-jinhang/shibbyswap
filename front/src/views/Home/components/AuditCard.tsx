@@ -17,13 +17,13 @@ const AuditCard = () => {
       <CardBody>
         <Heading size="lg">Audit with</Heading>
         <CardMidContent>
-          <img src="/images/satoswaptoken/shield.svg" height="24px" width="24px" alt="Certik audit in progress" /> Certik
+          <img src="/images/shibbyswaptoken/shield.svg" height="24px" width="24px" alt="Certik audit in progress" /> Certik
         </CardMidContent>
         <Flex justifyContent="space-between">
           <Heading size="lg">in progress</Heading>
           <Link
             className="active"
-            href="https://certik.org/projects/satoswaptoken"
+            href="https://certik.org/projects/shibbyswaptoken"
             target="__blank"
             rel="noreferrer noopener"
           >

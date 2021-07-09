@@ -55,7 +55,7 @@ const ComingSoon = () => {
       <Content>
         <div>
           <Block>
-            <Title as="h2">{TranslateString(999, 'Coming Soon to SatoSwap Token.')}</Title>
+            <Title as="h2">{TranslateString(999, 'Coming Soon to Shibbyswap Token.')}</Title>
             <Text mb={3}>
               {TranslateString(
                 504,
@@ -63,12 +63,12 @@ const ComingSoon = () => {
               )}
             </Text>
             <Text mb={3}>
-              <LiquidityLink href="https://swap.satoswap.finance/#/add/ETH/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
+              <LiquidityLink href="https://swap.shibbyswap.com/#/add/ETH/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
                 {TranslateString(506, 'Get CAKE-BNB LP >')}
               </LiquidityLink>
             </Text>
             <Text mb={3}>
-              {TranslateString(508, 'The project gets the BNB, SatoSwap Token burns the SATO.')}
+              {TranslateString(508, 'The project gets the BNB, Shibbyswap Token burns the SYS.')}
               <br />
               <strong>{TranslateString(510, 'You get the tokens.')}</strong>
             </Text>
@@ -79,7 +79,7 @@ const ComingSoon = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with SatoSwap Token, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with Shibbyswap Token, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
