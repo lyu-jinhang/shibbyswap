@@ -9,12 +9,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SYS',
     lpAddresses: {
       97: '',
-      56: '0x76E1A18c93db1DF8B3203ddEF448037B0f8d3357', // SYS-BUSD LP
+      56: '0xCb3602fe6959b9894EaC491D0512b8fe2E71F35A', // SYS-BUSD LP
     },
     tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
-      56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+      56: '0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -25,12 +25,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SYS-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x76E1A18c93db1DF8B3203ddEF448037B0f8d3357',
+      56: '0xCb3602fe6959b9894EaC491D0512b8fe2E71F35A',
     },
     tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
-      56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+      56: '0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -41,12 +41,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SYS-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xDC656444FC1701ffF3Fc39Ec8D6379886FecFE6E',
+      56: '0xb21DEdA88502BA7fbDAC16B50131e2B4627674aa',
     },
     tokenSymbol: 'SYS',
     tokenAddresses: {
       97: '',
-      56: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+      56: '0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,

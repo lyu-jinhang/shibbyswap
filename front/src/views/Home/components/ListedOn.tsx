@@ -52,7 +52,7 @@ const ListedOn = () => {
         </LinkListed>
         {/* <LinkListed>
           <a
-            href="https://dex.apeswap.finance/#/swap?outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2"
+            href="https://dex.apeswap.finance/#/swap?outputCurrency=0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08"
             target="_blank"
             rel="noreferrer"
           >

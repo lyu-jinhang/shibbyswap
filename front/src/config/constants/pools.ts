@@ -7,7 +7,7 @@ const pools: PoolConfig[] = [
   //   tokenLabel: 'BUSD v1',
   //   tokenAddress: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
   //   stakingTokenName: QuoteToken.SYS,
-  //   stakingTokenAddress: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //   stakingTokenAddress: '0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   //   stakingTokenDecimals: 18,
   //   contractAddress: {
   //     97: '',
@@ -23,7 +23,7 @@ const pools: PoolConfig[] = [
   //   isBush: true,
   //   isLp: false,
   //   bushVersion: 1,
-  //   getUrl: '/#/swap?outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //   getUrl: '/#/swap?outputCurrency=0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   // },
   // {
   //   sousId: 99, // V1
@@ -31,7 +31,7 @@ const pools: PoolConfig[] = [
   //   tokenLabel: 'WBNB v1',
   //   tokenAddress: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
   //   stakingTokenName: QuoteToken.SYS,
-  //   stakingTokenAddress: '0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //   stakingTokenAddress: '0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   //   stakingTokenDecimals: 18,
   //   contractAddress: {
   //     97: '',
@@ -47,7 +47,7 @@ const pools: PoolConfig[] = [
   //   isBush: true,
   //   isLp: false,
   //   bushVersion: 1,
-  //   getUrl: '/#/swap?outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //   getUrl: '/#/swap?outputCurrency=0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   // },
 ]
 

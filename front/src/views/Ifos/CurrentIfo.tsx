@@ -55,7 +55,7 @@ const Ifo = () => {
             <LinkExternal href="https://swap.shibbyswap.com/#/swap" mr="16px">
               {TranslateString(1060, 'Buy SYS')}
             </LinkExternal>
-            <LinkExternal href="https://swap.shibbyswap.com/#/add/ETH/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2">
+            <LinkExternal href="https://swap.shibbyswap.com/#/add/ETH/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08">
               {TranslateString(1062, 'Get LP tokens')}
             </LinkExternal>
           </Flex>

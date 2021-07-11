@@ -61,7 +61,7 @@ const FarmedStakingCard = () => {
 
   const tokenImageSrc = `${BASE_URL}/images/farms/sys.png`
   const tokenName = `SYS`
-  const tokenAddress = `0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2`
+  const tokenAddress = `0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08`
 
   return (
     <StyledFarmStakingCard>
@@ -105,7 +105,7 @@ const FarmedStakingCard = () => {
             Add {tokenName} to Metamask
           </TertiaryButton>
           <TertiaryButton variant="primary" scale="sm" width="100%">
-            <LinkExternal href="https://bscscan.com/token/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2" color="#ffffff">
+            <LinkExternal href="https://bscscan.com/token/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08" color="#ffffff">
               {TranslateString(356, 'View on BscScan')}
             </LinkExternal>
           </TertiaryButton>

@@ -13,13 +13,13 @@ const config: MenuEntry[] = [
   //     {
   //       label: 'Exchange',
   //       href:
-  //         'https://swape.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //         'https://swape.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   //       target: '_blank',
   //     },
   //     {
   //       label: 'Liquidity',
   //       href:
-  //         'https://swape.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+  //         'https://swape.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
   //       target: '_blank',
   //     },
   //   ],
@@ -31,12 +31,12 @@ const config: MenuEntry[] = [
       {
         label: 'Exchange',
         href:
-          'https://swap.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+          'https://swap.shibbyswap.com/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
       },
       {
         label: 'Liquidity',
         href:
-          'https://swap.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2',
+          'https://swap.shibbyswap.com/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08',
       },
     ],
   },
@@ -85,7 +85,7 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Chart',
   //   icon: 'InfoIcon',
-  //   href: 'https://dex.guru/token/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2-bsc',
+  //   href: 'https://dex.guru/token/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08-bsc',
   //   // @ts-ignore
   //   target: '_blank',
   // },

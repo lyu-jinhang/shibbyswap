@@ -88,7 +88,7 @@ const CakeStats = () => {
           <ReactTooltip id="totalBurnedTooltip" effect="solid">
             <span>{TranslateString(10007, 'Total of token burned')}</span>
           </ReactTooltip>
-          <LinkExternal href="https://bscscan.com/token/0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2?a=0x000000000000000000000000000000000000dead">
+          <LinkExternal href="https://bscscan.com/token/0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08?a=0x000000000000000000000000000000000000dead">
             <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} decimals={0} />
           </LinkExternal>
         </Row>

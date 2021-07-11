@@ -43,7 +43,7 @@ const listCache: WeakMap<TokenList, TokenAddressMap> | null =
 
 export function listToTokenMap(list: TokenList): TokenAddressMap {
   // list.push({
-  //   name: "shibbyswap.com", symbol: "SYS", address: "0x8B998619efb0CF7B3fDc85FF2b8bdDCd694d19c2", chainId: 56, decimals: 18
+  //   name: "shibbyswap.com", symbol: "SYS", address: "0xC6B4b6b9FcD7De6cAE4eB89Bc6Ae9426E2183F08", chainId: 56, decimals: 18
   // })
   const result = listCache?.get(list)
   if (result) return result
