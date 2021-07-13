@@ -129,7 +129,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/Shibbyswap",
+    href: "https://twitter.com/Shibby_finance",
   },
 ];
 

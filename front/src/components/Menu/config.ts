@@ -123,7 +123,12 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Discord',
-        href: 'https://discord.gg/shibbyswap',
+        href: 'https://discord.gg/Vu62PSvm',
+        target: '_blank',
+      },
+      {
+        label: 'Telegram',
+        href: 'https://t.me/shibby_finance',
         target: '_blank',
       },
     ],

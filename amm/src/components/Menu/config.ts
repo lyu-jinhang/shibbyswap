@@ -129,6 +129,12 @@ const config: MenuEntry[] = [
         // @ts-ignore
         target: '_blank',
       },
+      {
+        label: 'Telegram',
+        href: 'https://t.me/shibby_finance',
+        // @ts-ignore
+        target: '_blank',
+      },
     ],
   },
 ]
